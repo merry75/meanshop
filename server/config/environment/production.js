@@ -20,6 +20,6 @@ module.exports = {
             process.env.OPENSHIFT_MONGODB_DB_URL +
             process.env.OPENSHIFT_APP_NAME ||
             process.env.MONGODB_DB_URL ||
-            'mongodb://meango/meanshop'
+            'mongodb://merry75:123@ds123351.mlab.com:23351/meanshop-test'
   }
 };
