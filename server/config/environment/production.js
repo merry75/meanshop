@@ -23,3 +23,7 @@ module.exports = {
             'mongodb://merry75:123@ds123351.mlab.com:23351/meanshop-test'
   }
 };
+
+
+// mongodb://heroku_xs9hsgtf:rf96hgha2hpv143jaq3bn3cl81@ds133260.mlab.com:33260/heroku_xs9hsgtf
+//mongodb://merry75:123@ds123351.mlab.com:23351/meanshop-test
