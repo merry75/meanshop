@@ -1,0 +1,16 @@
+# ~/.tmuxinator/mean.yml
+
+tmux_command: byobu
+
+name: blog
+root: /mnt/unreal/git/meanshop
+
+windows:
+  - mean:
+        - ls -lh 
+  - serve:
+        - sudo systemctl start mongodb
+        - git pull
+        - git push
+        - systemctl status mongodb
+        - grunt serve
